@@ -11,6 +11,14 @@ git commit : faz o commit do arquivo, para o sistema de versionamento, pois quan
 git commit -m "seu comentário aqui " : o -m serve para lhe permitir fazer um comentário ao commit.
 git commit -am : é utilizado para adicionar todos os arquivos modificados
 	OBS: Nunca deve ser commitado um código que não funciona
+	
+GIT CLONE
+git remote add nome-do-repositório qual branch
+git clone /caminho-do-repositório nome-do-repositório que eu queor utilizar
+
+GIT PULL
+git pull nome-do-repositório que eu quero copiar nome da branch
+
 
 GIT LOG
 git log --decorate : lista as alterações realizadas no repositório
