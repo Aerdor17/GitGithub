@@ -4,7 +4,7 @@ Controle de versões com GitGithub
 **Anotações:**
 
 - **GIT INIT**
-- *git init* indica que aquela pasta é um repositóri git, assim o git começa a monitorar os arquivos que são criados e apagados naquela pasta
+*git init* indica que aquela pasta é um repositóri git, assim o git começa a monitorar os arquivos que são criados e apagados naquela pasta
 *git init --bare* indica que o repositóri é puro, usado para criar um repositório como o Origin, o qual vai ser vir de servidor para guardar as alterações
 	do projeto, e disponibilizar as mesmas para outros usuários git.
 	
