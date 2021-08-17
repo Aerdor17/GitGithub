@@ -1,7 +1,7 @@
 # GitGithub
 Controle de versões com GitGithub
 
-**Anotações:**
+**ANOTAÇÕES:**
 
 **GIT INIT**
 - *git init* indica que aquela pasta é um repositóri git, assim o git começa a monitorar os arquivos que são criados e apagados naquela pasta
