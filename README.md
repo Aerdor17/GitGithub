@@ -59,3 +59,6 @@ git rebase, faz quase o mesmo que o marge
 **GIT CLONE**
 *git remote add {nome do repositório novo}* e qual *branch* vai ser clonada
 *git clone* {caminho do repositório se for local} {nome do repositório que eu quero utilizar}
+
+**GIT TAG**
+*git tag -a {nome da tag}* cria uma versão de release do código, recomendo ler este artico sobre versionamento https://semver.org/lang/pt-BR/
