@@ -1,5 +1,5 @@
 # GitGithub
-controle de versões com gitgithub
+Controle de versões com GitGithub
 
 **Anotações:**
 
