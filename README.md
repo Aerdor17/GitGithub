@@ -54,7 +54,7 @@ git rebase, faz quase o mesmo que o marge
 
 **REMOTE** 
 *git remote* lista os repositórios 
-*git remote add {nome do repositório} {nome do repositório remoto: (git@github.com:aerdor17/GitGithub)}*, adiciona um repositório remoto.
+*git remote add {nome do repositório} {nome do repositório remoto: EX: git@github.com:aerdor17/GitGithub}*, adiciona um repositório remoto.
 
 **GIT CLONE**
 *git remote add {nome do repositório novo}* e qual *branch* vai ser clonada
