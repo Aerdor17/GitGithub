@@ -36,6 +36,7 @@ git log -p : mostra as alterações linha a linha do que foi modificado
 GIT DIFF
 git diff : é utilizado para mostrar quais foram as modificações dos arquvios.
 git diff --name-only : mostra apenas a lista dos arquvios modificados.
+git diff {hash inicial}..{hash final} mostra as aterações no código entre estes commits.
 
 REVERT
 git checkout nome-do-arquivo : é utilizado para voltar o arquivo para antes da alteração.
@@ -46,10 +47,13 @@ git reset --mixed : aponta o HEAD para o commit indicado, e atualiza o stage are
 git reset --hard  : aponta o HEAD para o commit indicado, atualiza o stage area e atualiza o work dir. 
 MAIS EM : [https://pt.stackoverflow.com/questions/325951/quais-diferen%C3%A7as-entre-soft-mixed-hard-no-git-reset]
 
-MERGE
-git merge nome-de-qual-branch-eu-quero-juntar-com-a-branch-que-eu-estou.
+CHECKOUT
 git checkout nome da branch troca de branch
 git checkout -b nome-da-branch, cria uma nova branch e navega até elas
+git checkout {hash da branch} navega até aquela branch de forma desanexada do projeto, e qualquer commit feito é ignorado, para poder salvar os commits desta branch deve ser  criada uma nova branch
+
+MERGE
+git merge nome-de-qual-branch-eu-quero-juntar-com-a-branch-que-eu-estou.
 git rebase, faz quase o mesmo que o marge
 
 REMOTE 
