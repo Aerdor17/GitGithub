@@ -4,17 +4,17 @@ Controle de versões com GitGithub
 **Anotações:**
 
 **GIT INIT**
-*git init* : indica que aquela pasta é um repositóri git, assim o git começa a monitorar os arquivos que são criados e apagados naquela pasta
-*git init --bare* : indica que o repositóri é puro, usado para criar um repositório como o Origin, o qual vai ser vir de servidor para guardar as alterações
+*git init* indica que aquela pasta é um repositóri git, assim o git começa a monitorar os arquivos que são criados e apagados naquela pasta
+*git init --bare* indica que o repositóri é puro, usado para criar um repositório como o Origin, o qual vai ser vir de servidor para guardar as alterações
 	do projeto, e disponibilizar as mesmas para outros usuários git.
 	
 **GIT ADD**
-*git add {nome do arquivo}* : adiciona o arquivo para o repositório git
+*git add {nome do arquivo}* adiciona o arquivo para o repositório git
 *git add remote {nome do repositório}* /caminho do repositório
-*git commit* : faz o commit do arquivo, para o sistema de versionamento, pois quando um arquivo é criado dentro do repositório git
+*git commit* faz o commit do arquivo, para o sistema de versionamento, pois quando um arquivo é criado dentro do repositório git
 	não necessáriamente ele pertence ao projeto.
-*git commit -m "seu comentário aqui "* : o -m serve para lhe permitir fazer um comentário ao commit.
-*git commit -am* : é utilizado para adicionar todos os arquivos modificados
+*git commit -m "seu comentário aqui "* o -m serve para lhe permitir fazer um comentário ao commit.
+*git commit -am* é utilizado para adicionar todos os arquivos modificados
 	**OBS:** Nunca deve ser commitado um código que não funciona
 	
 **GIT PULL**
@@ -22,12 +22,13 @@ Controle de versões com GitGithub
 
 
 **GIT LOG**
-*git log --decorate* : lista as alterações realizadas no repositório
-*git log --author="nome do autor"* : mostra as alterações, feitas por tal autor.
-*git shortlog* : mostra em ordem aufabética, quais foram os autores e quais os commits de cada pessoa
-*git shortlog -sn* : mostra em ordem aufabética, quais foram as pessoas e quantos commits elas fizeram.
-*git log --graph* : mostra em forma gráfica oque está acontecendo com os branchs e as versions
-*git log -p* : mostra as alterações linha a linha do que foi modificado
+*git log --decorate* lista as alterações realizadas no repositório
+*git log --author="nome do autor"* mostra as alterações, feitas por tal autor.
+*git shortlog* mostra em ordem aufabética, quais foram os autores e quais os commits de cada pessoa
+*git shortlog -sn* mostra em ordem aufabética, quais foram as pessoas e quantos commits elas fizeram.
+*git log --graph* mostra em forma gráfica oque está acontecendo com os branchs e as versions
+*git log -p* mostra as alterações linha a linha do que foi modificado
+*git log --oneline* mostra de forma resumida os commits e suas alterações. 
 
 **GIT DIFF**
 *git diff* : é utilizado para mostrar quais foram as modificações dos arquvios.
