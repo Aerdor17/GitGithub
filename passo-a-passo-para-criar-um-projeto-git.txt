@@ -7,4 +7,8 @@ CRIANDO UM PROJETO GIT-GITHUB
 6° enviar os arquivos para o repositório remote, com git push nome-do-repositório nome da branch
 7° pedir para o outro usuário git clonar o repositório-remoto para maquina dele com git clone caminho/para/o/repositório nome-do-repositório que eu quero utilizar
 8° baixar alterações dos arquivos que foram enviadas ao repositório no passo 6° com o comando git pull nome do repositório e qual brach 
+<<<<<<< HEAD
 9° criar uma branch com git checkout -b nome-da-brench
+=======
+9° criar uma branch com o comando git branch nome da branch, entrar na nova branch, git checkout nome da brench
+>>>>>>> b5ff3faa44761b1a81aa228a49a62db0e0c24bf0
