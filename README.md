@@ -63,4 +63,4 @@ git rebase, faz quase o mesmo que o marge
 **GIT TAG**
 *git tag -a {nome da tag}* cria uma versão de release do código, recomendo ler este artico sobre versionamento https://semver.org/lang/pt-BR/
 *git tag* mostra todas as tag's disponíveis.
-**OBS** tambem é possivel enviar tag's no **git push** *git push {tag}* ou *git push origin v0.1.0*.
+**OBS:** tambem é possivel enviar tag's no **git push** *git push {tag}* ou *git push origin v0.1.0*.
