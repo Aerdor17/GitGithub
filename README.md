@@ -71,4 +71,3 @@ Controle de versões com GitGithub
 - *git tag* mostra todas as tag's disponíveis.
 **OBS:** tambem é possivel enviar tag's no **git push** *git push {tag}* ou *git push origin v1.0.0*
 
-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
