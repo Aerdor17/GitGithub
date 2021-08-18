@@ -17,6 +17,12 @@ Controle de versões com GitGithub
 - *git commit -am* é utilizado para adicionar todos os arquivos modificados
 	**OBS:** Nunca deve ser commitado um código que não funciona
 	
+**STASH**
+- git stash, caso eu tenha feito alguma alteração mas ainda não tenha feito o git add e precise, ir para outra tarefa, eu posso estar utilizando o git stash, para guardar essas alterações futuramente.
+- git stash list, mostra todas as stash salvas.
+- git stash apply {númeor da stash}
+- git stash pop, tira da stash a ultima alteração e trás para a edição.
+	
 **GIT PULL**
 - *git pull* nome-do-repositório trás dele para a  branch nome-da-branch
 
@@ -43,19 +49,20 @@ Controle de versões com GitGithub
 - *git reset --mixed* : aponta o HEAD para o commit indicado, e atualiza o stage area mas sem mudar o work dir
 - *git reset --hard* : aponta o HEAD para o commit indicado, atualiza o stage area e atualiza o work dir. 
 **MAIS EM** : [https://pt.stackoverflow.com/questions/325951/quais-diferen%C3%A7as-entre-soft-mixed-hard-no-git-reset]
+	
 
 **CHECKOUT**
 - *git checkout {nome da branch}* troca de branch
 - *git checkout -b {nome da branch}*, cria uma nova branch e navega até elas
 - *git checkout {hash da branch}* navega até aquela branch de forma desanexada do projeto, e qualquer commit feito é ignorado, para poder salvar os commits desta branch deve ser  criada uma nova branch
 
-**MERGE**
+**MERGE AND REBASE**
 -  git merge {nome de qual branch eu quero juntar com a branch que eu estou}.
 -  git rebase, faz quase o mesmo que o marge.
 -  git rebase -i {hash do commit anterior aos que eu quero trabalhar} vai abrir a tela para fazer o pick, de quais commits você pode juntar em um unico commit
 -  git rebase -i HEAD~{número de commits que eu quero trabalhar} para fazer um novo commit.
--  DEPOIS: de fazer o gir rebase -i, você deve trocar a palava pick dos commits que você quer juntar pela letra "S" e salvar
--  
+
+**DEPOIS:** de fazer o git rebase -i, você deve trocar a palava pick dos commits que você quer juntar pela letra "S" e salvar. 
 
 **REMOTE** 
 - *git remote* lista os repositórios 
