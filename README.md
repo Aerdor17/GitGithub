@@ -10,7 +10,7 @@ Controle de versões com GitGithub
 	
 **GIT ADD**
 - *git add {nome do arquivo}* adiciona o arquivo para o repositório git
-- *git add remote {nome do repositório}* /caminho do repositório
+- *git remote add {nome do repositório}* /caminho do repositório
 - *git commit* faz o commit do arquivo, para o sistema de versionamento, pois quando um arquivo é criado dentro do repositório git
 	não necessáriamente ele pertence ao projeto.
 - *git commit -m "seu comentário aqui "* o -m serve para lhe permitir fazer um comentário ao commit.
