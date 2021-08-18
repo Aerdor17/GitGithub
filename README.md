@@ -36,9 +36,9 @@ Controle de versões com GitGithub
 - *git diff {hash inicial}..{hash final}* mostra as aterações no código entre estes commits.
 
 **REVERT**
-- *git checkout {nome do arquivo}* : é utilizado para voltar o arquivo para antes da alteração.
-- *git reset HEAD {nome do arquivo}* : é utilizado para tirar os arquivos da área de stage, para o ponterio atual, exemplo: editei um aquivo e fiz o git add,
-     se eu dar um git diff, ele não vai listar nada pois o arquivo já está "pronto" para ser commitado, neste caso é possivel utilizar o git reset HEAD, para tirar o arquivo da        área de stage.
+- *git checkout -- <nome do arquivo>*  é utilizado para voltar o arquivo para antes da alteração, antes de dar um git add.
+- *git reset HEAD <nome do arquivo>*  é utilizado para tirar os arquivos da área de stage, caso você tenha feito o git add e precise desfazer, depois só fazer um git reset --<nome do arquivo>, caso queira desfazer a alteração.
+- git revert {hash do commit}, vai reverter o commit.
 - *git reset --soft*  : aponta o HEAD para o commit indicado sem mudar o stage area e o work dir
 - *git reset --mixed* : aponta o HEAD para o commit indicado, e atualiza o stage area mas sem mudar o work dir
 - *git reset --hard* : aponta o HEAD para o commit indicado, atualiza o stage area e atualiza o work dir. 
@@ -50,10 +50,12 @@ Controle de versões com GitGithub
 - *git checkout {hash da branch}* navega até aquela branch de forma desanexada do projeto, e qualquer commit feito é ignorado, para poder salvar os commits desta branch deve ser  criada uma nova branch
 
 **MERGE**
-- *git merge {nome de qual branch eu quero juntar com a branch que eu estou}*.
-- *git rebase, faz quase o mesmo que o marge*
+-  git merge {nome de qual branch eu quero juntar com a branch que eu estou}.
+-  git rebase, faz quase o mesmo que o marge.
 -  git rebase -i {hash do commit anterior aos que eu quero trabalhar} vai abrir a tela para fazer o pick, de quais commits você pode juntar em um unico commit
 -  git rebase -i HEAD~{número de commits que eu quero trabalhar} para fazer um novo commit.
+-  DEPOIS: de fazer o gir rebase -i, você deve trocar a palava pick dos commits que você quer juntar pela letra "S" e salvar
+-  
 
 **REMOTE** 
 - *git remote* lista os repositórios 
