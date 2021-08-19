@@ -80,7 +80,7 @@ Controle de versões com GitGithub
 	
 	
 **CHERRY PICK**
-- git cherry pick {hash do commit} é utilizado quando queremos pegar apenas um commit de uma derminada branch, e levar ele para outra branch.
+- git cherry pick {hash do commit} é utilizado quando queremos pegar apenas um commit de uma derminada branch, e levar ele para outra branch, para utilizar só ir na branch que você quer levar o commit e fazer git cherry pick {hash do commit que você quer trazer}.
 	
 **GIT BISECT START**
 - git bisect é utilizado para verificarmos, pontos do código, exemplo eu persebi que agora o código parou de funcionar e eu quero entender, onde foi a alteração que quebrou  o código para isso eu executo, *git bisect start* e informo um commit em que o código estava **bad** com *git bisect bad {hash do commit}* depois eu passo um commit em que o código está bom com *git bisect good {hash commit}, Depois ´é só fazer o git revert.
