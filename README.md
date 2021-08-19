@@ -87,6 +87,9 @@ Controle de versões com GitGithub
 	
 **GIT SHOW**
 - git show {hash do commit}, é utilizado para mostrar todas as alterações do commit.
+	
+**GIT BLAME**
+- com o git blame {nome do arquivo ex: index.html} o git vai listar todas as alterações daquele arquivo junto com quem as fez.
 
 
 	
