@@ -105,7 +105,7 @@ Controle de versões com GitGithub
 2° devoloped que deriva da master (branch de desenvolvimento master),(a devoloped deve ser uma branch pura, onde apartir dela otras branch(que implementam features)derivam).
 3° feature's 1,2,3,4... (que derivam da branch devoloped), todas as features fazem *merge* para devoloped junto com os hotfix.
 4° caso algum bug emergencial seja encontrado, nunca deve ser corrigido direto na master,  deve sere criado uma branch de hotfix(correção de bug), e as branch's de hotfix, fazem  merge direto para master(produção), após fazer o merge é feito uma tag desta nova versão com correção.
-5° após fazer o merge das features+hotfix, para branch de developed pode ser feito uma branch de release apartir da branch de developed, para testar, encontrados bugs na branch de release, devem ser os mesmos corrigidos nesta branch, release aprovada, deve ser criada uma tag, apartir da release e por ultimo deve ser feito o merge da mesma na master.
+5° após fazer o merge das features+hotfix, para branch de developed pode ser feito uma branch de release apartir da branch de developed, para testar, encontrados bugs na branch de release, devem ser os mesmos corrigidos nesta branch, release aprovada, deve ser feito o merge da mesma na master.
 	
 
 	
