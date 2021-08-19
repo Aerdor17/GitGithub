@@ -51,6 +51,13 @@ Controle de versões com GitGithub
 **MAIS EM** : [https://pt.stackoverflow.com/questions/325951/quais-diferen%C3%A7as-entre-soft-mixed-hard-no-git-reset]
 	
 
+**GIT BRANCH**
+- git branch {nome do branch}, cria uma nova branch, apartir do branch atual.
+- git branch -d {nome do branch}, remove o branch.
+- git branch -D {nome do branch}, remove o branch, caso ele esteja a frente do branch atual.
+- git checkout -b {nome da branch}, cria uma nova branch e navega até elas, -b é um atalho para git branch seguido de checkou que navega até o branch criado.
+	
+	
 **CHECKOUT**
 - *git checkout {nome da branch}* troca de branch
 - *git checkout -b {nome da branch}*, cria uma nova branch e navega até elas
