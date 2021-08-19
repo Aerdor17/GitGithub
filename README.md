@@ -99,7 +99,7 @@ Controle de versões com GitGithub
 - com o git blame {nome do arquivo ex: index.html} o git vai listar todas as alterações daquele arquivo junto com quem as fez.
 		
 **TABALHANDO COM BRANCH's**
-- uma convensão mais comum para se trabalhar com branch's é 
+- Uma convensão mais comum para se trabalhar com branch's é 
 1. master (branch de produção)
 2. devoloped que deriva da master (branch de desenvolvimento master),(a devoloped deve ser uma branch pura, onde apartir dela otras branch(que implementam features)derivam).
 3. feature's 1,2,3,4... (que derivam da branch devoloped), todas as features fazem *merge* para devoloped junto com os hotfix.
