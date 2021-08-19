@@ -77,4 +77,12 @@ Controle de versões com GitGithub
 	Recomendo ler este artico sobre versionamento, https://semver.org/lang/pt-BR/
 - *git tag* mostra todas as tag's disponíveis.
 **OBS:** tambem é possivel enviar tag's no **git push** *git push {tag}* ou *git push origin v1.0.0*
+	
+	
+**CHERRY PICK**
+- git cherry pick {hash do commit} é utilizado quando queremos pegar apenas um commit de uma derminada branch, e levar ele para outra branch.
+	
+**GIT BISECT START**
+- git bisect é utilizado para verificarmos, pontos do código, exemplo eu persebi que agora o código parou de funcionar e eu quero entender, onde foi a alteração que quebrou  o código para isso eu executo, git bisect start e informo um commit em que o código estava bom com *git bisect bad {hash do commit}* depois eu passo um commit em que o código está ruim com *git bisect good {hash commit}.
+	
 
