@@ -97,6 +97,17 @@ Controle de versões com GitGithub
 	
 **GIT BLAME**
 - com o git blame {nome do arquivo ex: index.html} o git vai listar todas as alterações daquele arquivo junto com quem as fez.
+	
+	
+**TABALHANDO COM BRANCH's**
+- uma convensão mais comum para se trabalhar com branch's é 
+1° master (branch de produção)
+2° devoloped que deriva da master (branch de desenvolvimento)
+3° feature's 1,2,3,4... (que derivam da branch devoloped), todas as features fazem *merge* para devoloped junto com os hotfix
+4° caso algum bug emergencial seja encontrado, nunca deve ser corrigido direto na master,  deve sere criado uma branch de hotfix(correção de bug), e as branch's de hotfix, fazem marge pra produção.
+	
+
+	
 
 
 	
