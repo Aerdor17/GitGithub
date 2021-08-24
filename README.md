@@ -81,7 +81,7 @@ Controle de versões com GitGithub
 
 **GIT TAG**
 - *git tag -a {nome da tag ex: v1.0.0} -m "comentário"* cria uma versão de release do código, um piloto, um entregavel. 
-	Recomendo ler este artico sobre versionamento, https://semver.org/lang/pt-BR/
+	Recomendo ler este artigo sobre versionamento, https://semver.org/lang/pt-BR/
 - *git tag* mostra todas as tag's disponíveis.
 **OBS:** tambem é possivel enviar tag's no **git push** *git push {tag}* ou *git push origin v1.0.0*
 	
