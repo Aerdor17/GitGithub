@@ -65,7 +65,7 @@ Controle de versões com GitGithub
 
 **MERGE AND REBASE**
 -  git merge {nome de qual branch eu quero juntar com a branch que eu estou}.
--  git rebase, faz quase o mesmo que o marge.
+-  git rebase, faz """quase""" o mesmo que o marge.
 -  git rebase -i {hash do commit anterior aos que eu quero trabalhar} vai abrir a tela para fazer o pick, de quais commits você pode juntar em um unico commit
 -  git rebase -i HEAD~{número de commits que eu quero trabalhar} para fazer um novo commit.
 
